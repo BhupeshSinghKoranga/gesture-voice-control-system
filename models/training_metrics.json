@@ -1,0 +1,84 @@
+{
+    "dataset": {
+        "file": "C:\\Users\\ACER\\Desktop\\git hub\\system\\dataset\\gesture_dataset.csv",
+        "samples": 3500,
+        "features": 42,
+        "classes": [
+            "INDEX",
+            "PINCH",
+            "TWO_FINGERS",
+            "OPEN_PALM",
+            "FIST",
+            "THUMBS_UP",
+            "THUMBS_DOWN"
+        ]
+    },
+    "training": {
+        "test_size": 0.2,
+        "random_state": 42,
+        "model": "SVM RBF",
+        "C": 10.0,
+        "gamma": "scale"
+    },
+    "accuracy": {
+        "training": 1.0,
+        "testing": 1.0
+    },
+    "classification_report": {
+        "INDEX": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 100.0
+        },
+        "PINCH": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 100.0
+        },
+        "TWO_FINGERS": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 100.0
+        },
+        "OPEN_PALM": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 100.0
+        },
+        "FIST": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 100.0
+        },
+        "THUMBS_UP": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 100.0
+        },
+        "THUMBS_DOWN": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 100.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 700.0
+        },
+        "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 700.0
+        }
+    }
+}
